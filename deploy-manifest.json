@@ -1,8 +1,8 @@
 {
   "brand": "SEVAREL Consulting",
-  "version": "4.4.3",
-  "archive": "SEVAREL-Consulting-Hosting-v4-4-3.zip",
-  "sha256": "caf5400481e164f86358dd64d2311c559449134e4a94ea81a3d2e1fe59197fe4",
+  "version": "4.4.4",
+  "archive": "SEVAREL-Consulting-Hosting-v4-4-4.zip",
+  "sha256": "9d28dda51102f1a51df1e963c227fc91d8b31110bbf400af9694378b9ba11f13",
   "files": 234,
   "html_pages": 59,
   "output": "website"
