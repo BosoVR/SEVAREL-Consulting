@@ -53,9 +53,10 @@ Header-Regeln und Weiterleitungen aus dem Hosting-Paket bleiben erhalten.
 - Das Kontaktformular erzeugt einen lokalen Anfragebrief. Es versendet keine E-Mail.
 - Die vorhandenen direkten Telefon-/E-Mail-Links bleiben bestehen.
 - Das Impressum enthält die bestätigten Anbieterangaben; eine Wirtschafts-ID ist noch nicht zugeteilt.
-- Die Datenschutzseite beschreibt den tatsächlich aktiven Cloudflare Bot Fight Mode.
-- Eine Entscheidung über dessen optionale JavaScript-Geräteerkennung und der Nachweis
-  eines Auftragsverarbeitungsvertrags für das DeinServerHost-Postfach stehen noch aus.
+- Cloudflare Bot Fight Mode und dessen automatische JavaScript-Erkennung wurden
+  nach ausdrücklicher Zustimmung deaktiviert; die Datenschutzseite beschreibt dies.
+- Der Nachweis eines Auftragsverarbeitungsvertrags für das DeinServerHost-Postfach
+  steht noch aus.
 - Interne Unterlagen, Kunden-Arbeitspaket und Entwicklungsdokumente sind nicht Teil dieses Imports.
 
 Cloudflare Pages ist mit `BosoVR/SEVAREL-Consulting` verbunden und veröffentlicht
