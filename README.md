@@ -1,6 +1,6 @@
 # SEVAREL Consulting
 
-Cloudflare-Pages-Import für die korrigierte Website-Version **4.4.4**.
+Cloudflare-Pages-Import für die korrigierte Website-Version **4.4.5**.
 Die Version ergänzt Datenschutzinformationen, Geschäftskunden-Hinweise, sichtbare
 KI-Bildkennzeichnung, die bestätigte persönliche Inhaltsprüfung und Nutzungsbedingungen
 für Vorlagen und Download-Pakete. Eine anwaltliche Freigabe wird nicht behauptet.
@@ -12,7 +12,7 @@ Schriften sind weiterhin Systemschriften; fremde Marken-Schriftdateien wurden ni
 
 Das geprüfte Hosting-Paket ist im Repository enthalten:
 
-`SEVAREL-Consulting-Hosting-v4-4-4.zip`
+`SEVAREL-Consulting-Hosting-v4-4-5.zip`
 
 Die GitHub-Anbindung an Cloudflare Pages ist eingerichtet. Der Push auf `main`
 wurde erfolgreich gebaut und veröffentlicht. GitHub Actions prüft zusätzlich
@@ -52,7 +52,8 @@ Header-Regeln und Weiterleitungen aus dem Hosting-Paket bleiben erhalten.
 
 ## Betriebsstand
 
-- `noindex` bleibt gesetzt; dies ist kein Passwortschutz.
+- Die Indexierung ist ausdrücklich freigegeben: 54 Inhaltsseiten stehen in der Sitemap.
+- Kanonische URLs verweisen auf `https://sevarel-consulting.de`; Rechtsseiten und 404 bleiben `noindex`.
 - Das Kontaktformular erzeugt einen lokalen Anfragebrief. Es versendet keine E-Mail.
 - Die vorhandenen direkten Telefon-/E-Mail-Links bleiben bestehen.
 - Das Impressum enthält die bestätigten Anbieterangaben; eine Wirtschafts-ID ist noch nicht zugeteilt.
