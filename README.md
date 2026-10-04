@@ -3,16 +3,25 @@
 Cloudflare-Pages-Import für die zuletzt korrigierte Website-Version **4.4.1**.
 Design, Logo, Texte, Animationen und Dokumente werden durch diesen Import nicht verändert.
 
-## Einmalig: Hosting-Datei hinzufügen
+## Bereitstellung
 
-Die Website-ZIP muss zusätzlich zu diesen Konfigurationsdateien im Repository liegen:
+Das geprüfte Hosting-Paket ist im Repository enthalten:
 
 `SEVAREL-Consulting-Hosting-v4-4-1.zip`
 
-Auf GitHub **Add file > Upload files** wählen, genau diese Hosting-ZIP in das
-Hauptverzeichnis ziehen und auf `main` committen. **Nicht entpacken, nicht umbenennen.**
-Nicht das Komplettpaket oder die große Offline-Vorschau hochladen.
-Der Build bricht mit einer klaren Meldung ab, solange die richtige ZIP fehlt.
+Die GitHub-Anbindung an Cloudflare Pages ist eingerichtet. Der Push auf `main`
+wurde erfolgreich gebaut und veröffentlicht. GitHub Actions prüft zusätzlich
+die Archivintegrität und alle 59 HTML-Seiten.
+
+- Website: https://sevarel-consulting.de
+- www: https://www.sevarel-consulting.de
+- Cloudflare-Adresse: https://sevarel-consulting.pages.dev
+
+Die Domain bleibt bei Deinserverhost registriert. Die Nameserver sind auf
+`eva.ns.cloudflare.com` und `lennox.ns.cloudflare.com` umgestellt.
+Beide eigenen Domains sind in Cloudflare aktiv; gültige HTTPS-Zertifikate und
+HTTP 200 wurden direkt gegen autoritative Cloudflare-IP-Adressen geprüft.
+DNS-Zwischenspeicher können während der Umstellung noch alte Antworten liefern.
 
 ## Cloudflare Pages
 
@@ -44,8 +53,10 @@ Header-Regeln und Weiterleitungen aus dem Hosting-Paket bleiben erhalten.
 - Keine neue Domain, Mailbox, Datenschutzfreigabe oder rechtliche Freigabe wird angenommen.
 - Interne Unterlagen, Kunden-Arbeitspaket und Entwicklungsdokumente sind nicht Teil dieses Imports.
 
-Die Verbindung zu Cloudflare muss im eigenen Cloudflare-Konto hergestellt werden.
-Ein GitHub-Commit allein bestätigt noch keinen erfolgreichen Cloudflare-Deploy.
+Cloudflare Pages ist mit `BosoVR/SEVAREL-Consulting` verbunden und veröffentlicht
+Änderungen auf `main` automatisch. Der vollständige Entwicklungs- und
+Dokumentbestand liegt im lokalen Arbeitsordner; dieses öffentliche Repository
+enthält den geprüften Hosting-Import.
 
 ## Lokal prüfen
 
