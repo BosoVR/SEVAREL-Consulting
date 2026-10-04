@@ -1,0 +1,11 @@
+# Only generated output and local secrets; keep the hosting ZIP tracked.
+/website/
+/.sevarel-generated-output
+/sevarel-build-*/
+/.wrangler/
+__pycache__/
+*.pyc
+.env
+.env.*
+.dev.vars
+.dev.vars.*
