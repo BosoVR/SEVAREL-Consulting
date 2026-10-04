@@ -1,13 +1,15 @@
 # SEVAREL Consulting
 
-Cloudflare-Pages-Import für die zuletzt korrigierte Website-Version **4.4.1**.
-Design, Logo, Texte, Animationen und Dokumente werden durch diesen Import nicht verändert.
+Cloudflare-Pages-Import für die korrigierte Website-Version **4.4.2**.
+Die Version ergänzt Datenschutzinformationen, Geschäftskunden-Hinweise, sichtbare
+KI-Bildkennzeichnung, die bestätigte persönliche Inhaltsprüfung und Nutzungsbedingungen
+für Vorlagen und Download-Pakete. Eine anwaltliche Freigabe wird nicht behauptet.
 
 ## Bereitstellung
 
 Das geprüfte Hosting-Paket ist im Repository enthalten:
 
-`SEVAREL-Consulting-Hosting-v4-4-1.zip`
+`SEVAREL-Consulting-Hosting-v4-4-2.zip`
 
 Die GitHub-Anbindung an Cloudflare Pages ist eingerichtet. Der Push auf `main`
 wurde erfolgreich gebaut und veröffentlicht. GitHub Actions prüft zusätzlich
@@ -41,16 +43,19 @@ Der Import benötigt keine zusätzlichen Pakete, API-Schlüssel oder externen Do
 `wrangler.toml` legt den Ausgabeordner ebenfalls fest. Keinen Worker-Deploy-Befehl eintragen.
 
 Der Build prüft die SHA-256-Prüfsumme der ZIP, entpackt sie sicher und liefert
-**233 unveränderte öffentliche Dateien, darunter 59 HTML-Seiten**, nach `website/`.
+**234 geprüfte öffentliche Dateien, darunter 59 HTML-Seiten**, nach `website/`.
 Cloudflare veröffentlicht nur diesen Ausgabeordner, nicht diese README oder das Archiv.
 Header-Regeln und Weiterleitungen aus dem Hosting-Paket bleiben erhalten.
 
-## Bewusst erhaltener Vorschauzustand
+## Betriebsstand
 
 - `noindex` bleibt gesetzt; dies ist kein Passwortschutz.
 - Das Kontaktformular erzeugt einen lokalen Anfragebrief. Es versendet keine E-Mail.
 - Die vorhandenen direkten Telefon-/E-Mail-Links bleiben bestehen.
-- Keine neue Domain, Mailbox, Datenschutzfreigabe oder rechtliche Freigabe wird angenommen.
+- Das Impressum enthält die bestätigten Anbieterangaben; eine Wirtschafts-ID ist noch nicht zugeteilt.
+- Die Datenschutzseite beschreibt den tatsächlich aktiven Cloudflare Bot Fight Mode.
+- Eine Entscheidung über dessen optionale JavaScript-Geräteerkennung und der Nachweis
+  eines Auftragsverarbeitungsvertrags für das DeinServerHost-Postfach stehen noch aus.
 - Interne Unterlagen, Kunden-Arbeitspaket und Entwicklungsdokumente sind nicht Teil dieses Imports.
 
 Cloudflare Pages ist mit `BosoVR/SEVAREL-Consulting` verbunden und veröffentlicht

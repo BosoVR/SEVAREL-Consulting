@@ -15,3 +15,5 @@ jobs:
           python-version: '3.11'
       - name: Validate archive and build all pages
         run: python3 scripts/prepare_cloudflare.py
+      - name: Check public legal notices and download permissions
+        run: python3 scripts/check_public_legal.py
