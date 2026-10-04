@@ -1,18 +1,21 @@
 # SEVAREL Consulting
 
-Cloudflare-Pages-Import für die korrigierte Website-Version **4.4.5**.
+Cloudflare-Pages-Import für die korrigierte Website-Version **4.4.6**.
 Die Version ergänzt Datenschutzinformationen, Geschäftskunden-Hinweise, sichtbare
 KI-Bildkennzeichnung, die bestätigte persönliche Inhaltsprüfung und Nutzungsbedingungen
 für Vorlagen und Download-Pakete. Eine anwaltliche Freigabe wird nicht behauptet.
 Die redaktionellen Abschnitte verwenden ein gemeinsames Spaltenraster und bündige
 Textkanten. Der Werkzeugabschnitt bleibt innerhalb derselben Inhaltsbreite.
 Schriften sind weiterhin Systemschriften; fremde Marken-Schriftdateien wurden nicht importiert.
+Alle 17 Wissensartikel enthalten eingeordnete Primärquellen und einen sichtbaren
+Hinweis auf die bestätigte persönliche Inhaltsprüfung. Das Organisationsschema
+enthält die tatsächliche Telefonnummer und eine strukturierte Geschäftsanschrift.
 
 ## Bereitstellung
 
 Das geprüfte Hosting-Paket ist im Repository enthalten:
 
-`SEVAREL-Consulting-Hosting-v4-4-5.zip`
+`SEVAREL-Consulting-Hosting-v4-4-6.zip`
 
 Die GitHub-Anbindung an Cloudflare Pages ist eingerichtet. Der Push auf `main`
 wurde erfolgreich gebaut und veröffentlicht. GitHub Actions prüft zusätzlich
