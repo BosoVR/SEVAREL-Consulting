@@ -1,6 +1,6 @@
 # SEVAREL Consulting
 
-Cloudflare-Pages-Import für die korrigierte Website-Version **4.4.6**.
+Cloudflare-Pages-Import für die korrigierte Website-Version **4.4.7**.
 Die Version ergänzt Datenschutzinformationen, Geschäftskunden-Hinweise, sichtbare
 KI-Bildkennzeichnung, die bestätigte persönliche Inhaltsprüfung und Nutzungsbedingungen
 für Vorlagen und Download-Pakete. Eine anwaltliche Freigabe wird nicht behauptet.
@@ -15,7 +15,7 @@ enthält die tatsächliche Telefonnummer und eine strukturierte Geschäftsanschr
 
 Das geprüfte Hosting-Paket ist im Repository enthalten:
 
-`SEVAREL-Consulting-Hosting-v4-4-6.zip`
+`SEVAREL-Consulting-Hosting-v4-4-7.zip`
 
 Die GitHub-Anbindung an Cloudflare Pages ist eingerichtet. Der Push auf `main`
 wurde erfolgreich gebaut und veröffentlicht. GitHub Actions prüft zusätzlich
@@ -49,7 +49,7 @@ Der Import benötigt keine zusätzlichen Pakete, API-Schlüssel oder externen Do
 `wrangler.toml` legt den Ausgabeordner ebenfalls fest. Keinen Worker-Deploy-Befehl eintragen.
 
 Der Build prüft die SHA-256-Prüfsumme der ZIP, entpackt sie sicher und liefert
-**234 geprüfte öffentliche Dateien, darunter 59 HTML-Seiten**, nach `website/`.
+**235 geprüfte öffentliche Dateien, darunter 59 HTML-Seiten**, nach `website/`.
 Cloudflare veröffentlicht nur diesen Ausgabeordner, nicht diese README oder das Archiv.
 Header-Regeln und Weiterleitungen aus dem Hosting-Paket bleiben erhalten.
 
@@ -72,6 +72,12 @@ Dokumentbestand liegt im lokalen Arbeitsordner; dieses öffentliche Repository
 enthält den geprüften Hosting-Import.
 
 ## Lokal prüfen
+
+Bing Webmaster Tools ist per DNS verifiziert. Die Sitemap wurde eingereicht.
+Der IndexNow-Workflow meldet nach erfolgreicher Live-Prüfung die 54 Sitemap-URLs
+an den IndexNow-Verbund. Er wartet auf die passende veröffentlichte Version,
+prüft den öffentlich ausgelieferten Besitznachweis und übermittelt ausschließlich
+URLs der eigenen Domain. Eine Annahme der Meldung garantiert keine Indexierung.
 
 ```sh
 python3 scripts/prepare_cloudflare.py

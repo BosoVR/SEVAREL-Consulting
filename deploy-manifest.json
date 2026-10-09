@@ -1,10 +1,11 @@
 {
   "brand": "SEVAREL Consulting",
-  "version": "4.4.6",
-  "archive": "SEVAREL-Consulting-Hosting-v4-4-6.zip",
-  "sha256": "f2f2151bad207cadf187a43a5469d94b3c5d78e74f326025f0f9e5a56202b347",
-  "files": 234,
+  "version": "4.4.7",
+  "archive": "SEVAREL-Consulting-Hosting-v4-4-7.zip",
+  "sha256": "507643470d9d95446499cf7fe0bffc14e298f69abe580ac72c12e3aeffc990c3",
+  "files": 235,
   "html_pages": 59,
   "output": "website",
-  "indexing_enabled": true
+  "indexing_enabled": true,
+  "indexnow_key_file": "30ef0fea4b764b1488bd7171b8a71f93.txt"
 }
