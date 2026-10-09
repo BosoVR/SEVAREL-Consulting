@@ -7,6 +7,7 @@ pages = list(root.rglob('*.html'))
 assert len(pages) == 59
 for page in pages:
     html = page.read_text(encoding='utf-8')
+    assert not any(marker in html for marker in ('Ã¤','Ã¼','Ã¶','Ãœ','ÃŸ')), f'Damaged German UTF-8 text: {page}'
     assert 'KI-generierte Illustrationen' in html, page
     assert 'ausschließlich an Unternehmen' in html, page
     assert 'Anbieter- und Veröffentlichungsfreigabe stehen aus' not in html, page
